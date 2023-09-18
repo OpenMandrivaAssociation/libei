@@ -13,7 +13,7 @@ BuildRequires:  meson
 BuildRequires:  python
 BuildRequires:  python-attrs
 BuildRequires:  python-jinja2
-BuildRequires:  systemd-devel
+BuildRequires:  pkgconfig(libsystemd)
  
 # libei packages
 %description
