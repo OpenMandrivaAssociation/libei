@@ -69,8 +69,6 @@ Library for XDG RemoteDesktop Portal Setup Development Package
  
 %prep
 %autosetup -S git
-# Replace whatever the source uses with the approved call
-%py3_shebang_fix $(git grep -l  '#!/usr/bin/.*python3')
  
 %build
 %meson -Dtests=disabled -Ddocumentation='[]' -Dliboeffis=enabled
