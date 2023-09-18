@@ -1,21 +1,18 @@
 Name:           libei
 Version:        1.1.0
-Release:        2%{?dist}
+Release:        1
 Summary:        Library for Emulated Input
  
 License:        MIT
 URL:            http://gitlab.freedesktop.org/libinput/libei
 Source0:        https://gitlab.freedesktop.org/libinput/libei/-/archive/%{version}/libei-%{version}.tar.bz2
  
-BuildRequires:  gcc
 BuildRequires:  git-core
 BuildRequires:  libxml2
 BuildRequires:  meson
-BuildRequires:  pkgconf-pkg-config
-BuildRequires:  python3
-BuildRequires:  python3-attrs
-BuildRequires:  python3-jinja2
-BuildRequires:  python3-rpm-macros
+BuildRequires:  python
+BuildRequires:  python-attrs
+BuildRequires:  python-jinja2
 BuildRequires:  systemd-devel
  
 # libei packages
