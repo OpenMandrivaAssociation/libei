@@ -33,7 +33,7 @@ replays those events as if they came from physical devices.
 %package -n %{libname}
 Summary:        Shared library for %{name}
 
-%description -n %{libname}.
+%description -n %{libname}
 This package contains the shared library files.
 
 %package -n %{devname}
