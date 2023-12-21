@@ -8,7 +8,7 @@
 %define devoeffisname %mklibname -d oeffis
 
 Name:           libei
-Version:        1.1.0
+Version:        1.2.0
 Release:        1
 Summary:        Library for Emulated Input
  
