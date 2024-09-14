@@ -9,7 +9,7 @@
 
 Name:           libei
 Version:        1.3.0
-Release:        1
+Release:        2
 Summary:        Library for Emulated Input
  
 License:        MIT
