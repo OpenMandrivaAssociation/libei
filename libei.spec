@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libevdev)
 BuildRequires:	git-core
-BuildRequires:	libxml2
+BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	python
 BuildRequires:	python%{pyver}dist(attrs)
 BuildRequires:	python%{pyver}dist(jinja2)
