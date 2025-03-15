@@ -3,7 +3,7 @@
 %define devname %mklibname ei -d
 
 Name:		libei
-Version:	1.3.0
+Version:	1.4.0
 Release:	1
 Source0:	https://gitlab.freedesktop.org/libinput/libei/-/archive/%{version}/libei-%{version}.tar.bz2
 Summary:	Library for sending Emulated Input (EI) to a matching Emulated Input Server (EIS)
