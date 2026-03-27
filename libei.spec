@@ -4,7 +4,7 @@
 
 Name:		libei
 Version:	1.5.0
-Release:	1
+Release:	2
 Source0:	https://gitlab.freedesktop.org/libinput/libei/-/archive/%{version}/libei-%{version}.tar.bz2
 Summary:	Library for sending Emulated Input (EI) to a matching Emulated Input Server (EIS)
 URL:		https://gitlab.freedesktop.org/libinput/libei
@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libevdev)
 BuildRequires:	git-core
-BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:	pkgconfig(libxml-2.0) >= 2.15.2
 BuildRequires:	python
 BuildRequires:	python%{pyver}dist(attrs)
 BuildRequires:	python%{pyver}dist(jinja2)
