@@ -4,7 +4,7 @@
 
 Name:		libei
 Version:	1.6.0
-Release:	1
+Release:	2
 Source0:	https://gitlab.freedesktop.org/libinput/libei/-/archive/%{version}/libei-%{version}.tar.bz2
 Summary:	Library for sending Emulated Input (EI) to a matching Emulated Input Server (EIS)
 URL:		https://gitlab.freedesktop.org/libinput/libei
